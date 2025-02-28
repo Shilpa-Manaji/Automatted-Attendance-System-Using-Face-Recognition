@@ -1,4 +1,4 @@
-# Attendance System App
+# Automated Attendance System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
@@ -36,7 +36,7 @@ We have utilized a modern and robust technology stack to ensure scalability and 
 - **Backend**: [Python 3.x](https://www.python.org/)(Flask API)
 - **Frontend**: [Flutter](https://flutter.dev)
 - **Database**: [Firebase](https://firebase.google.com/)
-- **Machine Learning**: [FaceRecognitionModel](<(http://dlib.net/face_recognition.py.html)>)
+- **Machine Learning**: [FaceRecognitionModel](http://dlib.net/face_recognition.py.html)
 - **Data Format**: [Excel sheets for training and output]
 - **Version Control**: [Git](https://git-scm.com/)
 - **Development Environment**: [Andriodstudio](https://developer.android.com/studio),[Visualstudio](https://visualstudio.microsoft.com/)
