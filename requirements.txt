@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+Flask
+flask-cors
+face_recognition
+pandas
+numpy
+openpyxl
+gunicorn
+dlib
+werkzeug
+click
+ 
+
+=======
+Flask
+flask-cors
+face_recognition
+pandas
+numpy
+openpyxl
+gunicorn
+dlib
+werkzeug
+click
+ 
+
+>>>>>>> 6fc0bb00005491e6d3f1640bf9780993620a66d7
