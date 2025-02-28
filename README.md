@@ -36,7 +36,7 @@ We have utilized a modern and robust technology stack to ensure scalability and 
 - **Backend**: [Python 3.x](https://www.python.org/)(Flask API)
 - **Frontend**: [Flutter](https://flutter.dev)
 - **Database**: [Firebase](https://firebase.google.com/)
-- **Machine Learning**: [FaceRecognitionModel]
+- **Machine Learning**: [FaceRecognitionModel](<(http://dlib.net/face_recognition.py.html)>)
 - **Data Format**: [Excel sheets for training and output]
 - **Version Control**: [Git](https://git-scm.com/)
 - **Development Environment**: [Andriodstudio](https://developer.android.com/studio),[Visualstudio](https://visualstudio.microsoft.com/)
@@ -48,14 +48,20 @@ We have utilized a modern and robust technology stack to ensure scalability and 
 Our project follows a structured workflow to ensure clarity and efficiency:
 
 1. **Data Collection** 📷
+
    - Upload an Excel sheet containing Image URLs, Names, and Roll Numbers to train the model.
+
 2. **Model Training** 🤖
+
    - Process images, extract facial features, and train the recognition model.
    - Stores encodings in a Pickle file (model.pkl).
+
 3. **Attendance Marking** ✅
+
    - User uploads an image containing students.
    - The system detects faces and matches them with the trained model.
    - Recognized students' Names, Roll Numbers, and Timestamps are stored in an Excel file.
+
 4. **Attendance Report Generation**📄
    - An Excel sheet is generated with the attendance records.
 
@@ -98,13 +104,17 @@ flowchart TD
 Our predictive modeling process is designed for accuracy and robustness:
 
 - **Algorithm Selection: Face Recognition using Dlib's HOG & CNN models**
+
   - **Reasons:**
     - Efficient for face recognition.
     - Pretrained models enhance accuracy and reduce training time.
     - Works well with varying lighting conditions and angles.
+
 - **Model Training:**
+
   - Extracts facial encodings from labeled images.
   - Stores encodings in a serialized file (model.pkl).
+
 - **Evaluation Metrics:**
   - **Recognition Accuracy:** Measures correct identification rates.
   - **False Positive Rate (FPR):** Ensures incorrect matches are minimized.
@@ -148,10 +158,12 @@ Ensure you have the following installed:
 - **Firebase SDK**
 - **Python 3.x**
 - **Required Python Libraries:**:
+
   - `numpy`
   - `pandas`
   - `Flask`
   - `Pickle`
+
   ```bash
   pip install flask flask-cors pandas numpy opencv-python face-recognition firebase-admin requests openpyxl
   ```
