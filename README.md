@@ -27,7 +27,7 @@
 
 Welcome to the **Automated Attendance System using Face Recognition** project!
 
-## The Automated Attendance System leverages Face Recognition to mark attendance efficiently. The system eliminates the need for manual attendance marking by automating the process using image recognition. This ensures accuracy, saves time, and reduces errors in attendance records.
+The Automated Attendance System leverages Face Recognition to mark attendance efficiently. The system eliminates the need for manual attendance marking by automating the process using image recognition. This ensures accuracy, saves time, and reduces errors in attendance records.
 
 ## Technology Stack
 
@@ -109,10 +109,6 @@ Our predictive modeling process is designed for accuracy and robustness:
   - **Recognition Accuracy:** Measures correct identification rates.
   - **False Positive Rate (FPR):** Ensures incorrect matches are minimized.
   - **False Negative Rate (FNR):** Ensures recognized faces are not missed.
-
-**Feature Importance Plot:**
-
-_An image showcasing the importance of each feature in the model can be placed here._
 
 ---
 
